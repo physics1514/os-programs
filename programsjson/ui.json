@@ -1,11 +1,5 @@
 {
-  "instructions": [
-    1000003,
-    2000005,
-    2658371,
-    3000014,
-    0
-  ],
+  "instructions": [1000003, 2000005, 2658371, 3000014, 0],
   "ui": [
     {
       "type": "frame",
@@ -16,8 +10,8 @@
     {
       "type": "textLabel",
       "text": "Hello, World!",
-      "size": [0.3, 0.1],
-      "position": [0.35, 0.4],
+      "size": [0.2, 0.1],
+      "position": [0.4, 0.4],
       "textColor": [255, 255, 255]
     }
   ]
