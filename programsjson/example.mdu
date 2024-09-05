@@ -1,0 +1,9 @@
+{
+    "name": "example-program",
+    "version": "1.0",
+    "instructions": [
+        { "opcode": "ADD", "rd": 1, "rs1": 2, "rs2": 3 },
+        { "opcode": "SUB", "rd": 4, "rs1": 5, "rs2": 6 },
+        { "opcode": "AND", "rd": 7, "rs1": 8, "rs2": 9 }
+    ]
+}
