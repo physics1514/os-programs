@@ -1,0 +1,10 @@
+{
+  "name": "add_two_numbers",
+  "version": "1.0",
+  "instructions": [
+    { "opcode": "LW", "rd": 2, "rs1": 0, "imm": 0 },
+    { "opcode": "LW", "rd": 3, "rs1": 0, "imm": 4 },
+    { "opcode": "ADD", "rd": 1, "rs1": 2, "rs2": 3 },
+    { "opcode": "SW", "rs1": 0, "rs2": 1, "imm": 8 }
+  ]
+}
