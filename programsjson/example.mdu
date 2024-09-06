@@ -1,9 +1,8 @@
 {
-    "name": "example-program",
-    "version": "1.0",
-    "instructions": [
-        { "opcode": "ADD", "rd": 1, "rs1": 2, "rs2": 3 },
-        { "opcode": "SUB", "rd": 4, "rs1": 5, "rs2": 6 },
-        { "opcode": "AND", "rd": 7, "rs1": 8, "rs2": 9 }
-    ]
+  "instructions": [
+    { "opcode": "LW", "rd": 2, "rs1": 0, "imm": 0 },  // Load value from address 0x00 into register 2
+    { "opcode": "LW", "rd": 3, "rs1": 0, "imm": 4 },  // Load value from address 0x04 into register 3
+    { "opcode": "ADD", "rd": 1, "rs1": 2, "rs2": 3 }, // Add values in register 2 and 3, store in register 1
+    { "opcode": "SW", "rs1": 0, "rs2": 1, "imm": 8 }   // Store value from register 1 into address 0x08
+  ]
 }
